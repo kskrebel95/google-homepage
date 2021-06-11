@@ -1,0 +1,2 @@
+- Add header and footer using flexbox
+- Aligned google image and input

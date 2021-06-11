@@ -3,6 +3,7 @@
     text-align: center;
 }
 img{
+    padding-top: 150px;
     width: 350px;
     height: auto;
     padding: 20px;
@@ -10,5 +11,69 @@ img{
 
 input {
     width:600px;
-    border-radius:10px;
+    margin: 20px;
+    border-radius:50px;
+    height: 40px;
+    padding-left: 50px;
+    background-image: url(https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-2.png);
+    background-repeat: no-repeat; 
+    background-size: 30px;
+    background-position: 5px 5px;
 }
+
+.btn-1 {
+    margin: 15px;
+    padding: 20px;
+    border: none;
+    font-size: 15px;
+    color: gray;
+    border-radius: 10px;
+}
+
+a {
+    padding:5px;
+    color:black;
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+    margin: 0px 10px 0px 10px;
+}
+footer {
+    background-color:rgba(180, 180, 180, 0.966);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+header {
+    display: flex;
+    flex-direction: row;
+}
+  footer .footer-nav1, header .header-nav1 {
+    display: flex;
+    align-items: center;
+  }
+
+
+  footer .footer-nav2, header .header-nav2 {
+    margin-left: auto;
+    align-items: center;
+  }
+
+  #signin{
+      color:white;
+      background-color: #4285f4;
+      border: 1px solid #4285f4;
+      padding:5px 10px 5px 10px;
+      border-radius: 5px;
+  }
+
+  #icon {
+    padding:0;
+    margin:0;
+    width: 25px;
+  }
